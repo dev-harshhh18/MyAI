@@ -47,7 +47,7 @@ def save_conversation(text):
 
 # Retrieve conversation (with keyword access)
 def retrieve_conversations(secret_keyword):
-    if secret_keyword != "Dream":  # Replace with your chosen keyword
+    if secret_keyword != "Your_Secret_Keyword":  
         return "Invalid keyword. Access denied."
     try:
         with open("conversations.log", "rb") as file:
